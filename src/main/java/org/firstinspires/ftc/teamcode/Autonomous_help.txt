@@ -1,0 +1,29 @@
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+User Functions (What you will need)
+___________________________________________________________________
+
+servo() - set the position of the jewel arm.
+args: double position, Servo servo
+
+moveForwardSecs() - moves the two driving motors forward
+args: double speed, double time, DcMotor left, DcMotor right
+
+moveForwardDegrees() - moves the two driving motors forward
+args: double speed, int degrees, DcMotor left motor, DcMotor right motor
+
+tankMoveSecs() - tank drives motors for a number of seconds
+args: double left motor speed, double right motor speed, double time, DcMotor left motor, DcMotor right motor
+
+tankMoveSecs() - tank drives motors for a number of seconds
+args: double left motor speed, double right motor speed, int degrees, DcMotor left motor, DcMotor right motor
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Computer Functions (You probably won't need these, used by the other functions)
+___________________________________________________________________
+
+
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Soon to be (don't exist in library yet)
+___________________________________________________________________
+
