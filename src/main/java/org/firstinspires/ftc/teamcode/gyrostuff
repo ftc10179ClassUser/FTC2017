@@ -1,0 +1,33 @@
+if (abs(0 - errorAmount) < 1) {
+                    right.setPower(0);
+                    left.setPower(0);
+                    if (errorAmount < 0) {
+                        while (abs(0 - errorAmount) < 1) {
+                            right.setPower(0.3);
+                        }
+                        right.setPower(0);
+                    } else {
+                    }
+                    if (errorAmount > 0) {
+                        while (abs(0 - errorAmount) < 1) {
+                            left.setPower(0.3);
+                        }
+                        left.setPower(0);
+                    } else {
+                    }
+                } else {
+                }
+            }
+
+
+
+while (abs(errorAmount-distanceOrDegrees) > 2) {
+                    if(errorAmount < distanceOrDegrees) {
+                        right.setPower(0.5);
+                    }
+                    if(errorAmount > distanceOrDegrees) {
+                        left.setPower(0.5);
+                    }
+                }
+                right.setPower(0);
+                left.setPower(0);
